@@ -1,0 +1,131 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(29, 157, 192);
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo h1{
+    margin:0;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li{
+    margin-left: 20px;
+}
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    background-color: #73c22d;
+    color: #0b0b0b;
+}
+.hero{
+    background-image: url(Images/online\ shopping.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    box-sizing:content-box;
+    width:100%;
+    height:100px;
+    color: #8c1f1f;
+    text-align: center;
+    padding: 50px 20px;
+}
+.hero h2{
+    font-size: 1.4rem;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: yellow
+}
+.hero button{
+    background-color:rgb(29, 157, 192) ;
+    border:#333;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color:#fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.hero button:hover{
+    background-color: #8c1f1f;
+    color: black;
+}
+.products{
+    width:100%;
+    text-align: center;
+    padding: 30px 10px;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.product-item{
+    width:30%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.product-item img{
+    width:100%;
+    height: auto;
+
+}
+.products h2{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.products .product-item{
+    display:inline-block;
+    width:30%;
+    margin: 0 1%;
+    box-sizing: border-box;
+}
+
+.products.product-item h3{
+    margin: 15px 0 10px;
+}
+.products.product-item p{
+    margin: 0 0 10px;
+}
+.products.product-item span{
+    font-size: 1.2rem;
+    color: blue;
+}
+.product-item button{
+    background-color: rgb(29, 157, 192);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product-item button:hover{
+    background-color: #ca5353;
+    color: black;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding:10px;
+    width: 100%;
+    bottom: 0;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
